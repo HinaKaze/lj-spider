@@ -15,6 +15,7 @@ class HouseItem(scrapy.Item):
     size = scrapy.Field()
     location = scrapy.Field()
     year = scrapy.Field()
+    perPrice =scrapy.Field()
 
 class DmozItem(scrapy.Item):
     title = scrapy.Field()
